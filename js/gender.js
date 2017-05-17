@@ -29,13 +29,13 @@ function checkIt() {
   var message;
 
   if (max == male) {
-    message ="You're so not lazy! Good Job!";
+    message ="You're so manly! Nice!";
   }
   else if (max == female) {
-    message = "Well, you're not the laziest person in the world so, good job.";
+    message = "Yassssss girrrrllllll! You are totally girly!";
   }
 
   // Display result
-  document.getElementById('result').innerHTML = counts;
-  //document.getElementById('result').innerHTML = message;
+  //document.getElementById('result').innerHTML = counts;
+  document.getElementById('result').innerHTML = message;
 }
