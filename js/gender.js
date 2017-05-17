@@ -37,5 +37,5 @@ function checkIt() {
 
   // Display result
   //document.getElementById('result').innerHTML = counts;
-  document.getElementById('result').innerHTML = message;
+  document.getElementById('result-text').innerHTML = message;
 }
