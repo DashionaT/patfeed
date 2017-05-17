@@ -178,6 +178,12 @@ label {
   padding: 24px;
 }
 
+#result-text {
+  border: 1px solid #999;
+  margin: 24px 0;
+  padding: 24px;
+}
+
 #result h3 {
 
 }
